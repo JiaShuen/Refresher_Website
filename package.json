@@ -1,7 +1,6 @@
 {
   "name": "refresher_website",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiaShuen/Refresher_Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JiaShuen/Refresher_Website/issues"
+  },
+  "homepage": "https://github.com/JiaShuen/Refresher_Website#readme",
+  "description": ""
 }
