@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "refresher_website": "file:"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JiaShuen/Refresher_Website.git"
